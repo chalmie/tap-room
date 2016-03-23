@@ -7,8 +7,8 @@ import { Keg } from './task.model';
     template: `
     <div>
       <label>Name: {{keg.name}} Brand: {{ keg.brand }} ABV: {{ keg.abv }} Price: {{ keg.price }} Pints Remaining: {{ keg.pints }}</label>
-      <button (click)="pourPint()" class="btn-success btn-sm add-button">Pour Pint</button>
     </div>
+    <button (click)="pourPint()" class="btn-success btn-sm add-button">Pour Pint</button>
     `
 })
 

@@ -5,6 +5,22 @@ h1 {
 .selected {
   color: #22bdf0;
 }
+.kegLow {
+  color: red;
+}
+.priceHigh {
+  font-family: cursive;
+  font-size: 1.3em;
+}
+.priceLow {
+  font-size: 1.8em;
+}
+.abvLow {
+
+}
+.abvHigh {
+text-transform: uppercase;
+}
 
 .task-form {
   margin-top: 80px;

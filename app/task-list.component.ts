@@ -12,6 +12,11 @@ import { KegComponent } from './task.component';
   directives: [NewKegComponent, KegComponent],
   template: `
   <keg-display *ngFor="#currentKeg of kegList"
+  [class.kegLow]="currentKeg.pints <= 10"
+  [class.priceHigh]="currentKeg.price >= 6"
+  [class.priceLow]="currentKeg.price < 6"
+  [class.abvHigh]="currentKeg.abv >= 7"
+  [class.abvLow]="currentKeg.abv < 6"
     (click)="kegClicked(currentKeg)"
     [class.selected]="currentKeg === selectedKeg"
     [keg]="currentKeg">

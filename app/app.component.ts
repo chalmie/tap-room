@@ -20,8 +20,8 @@ export class AppComponent {
   public kegs: Keg[];  // Task[] (or Array<Task>) identifies tasks as an array of Task objects
   constructor(){
     this.kegs = [
-      new Keg("Keg1", 'KegBrand1', 6, 6, 0),
-      new Keg("Keg2", 'KegBrand2', 3.5, 4, 1),
+      new Keg("Keg1", 'KegBrand1', 10, 6, 0),
+      new Keg("Keg2", 'KegBrand2', 4, 4, 1),
       new Keg("Keg3", 'KegBrand3', 4, 7, 2),
       new Keg("Keg4", 'KegBrand4', 8, 5, 3)
     ];
